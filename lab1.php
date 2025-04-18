@@ -88,6 +88,7 @@ $superUser = new SuperUser("Admin User", "admin", "adminpass", "Administrator");
     unset($user3);
     unset($user2);
     unset($user1);
+    unset($user);
     
     // В конце удаляем привилегированного пользователя
     unset($superUser);
